@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TODO</string>
+    <string name="addButton">Add</string>
+    <string-array name="todo_array">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>
