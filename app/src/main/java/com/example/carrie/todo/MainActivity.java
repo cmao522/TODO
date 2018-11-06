@@ -14,7 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
-        public void onDataChange(@NonNull DataSnapsnot data s)
+        public void onDataChange(@NonNull DataSnapsnot sataSnapshot) {
+            for (DataSnapshot child : dataSnapshot.getChildren())
+        }
     }
 
 
